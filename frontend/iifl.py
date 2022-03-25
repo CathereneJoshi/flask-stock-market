@@ -32,10 +32,10 @@ for l in links.find_all('a', attrs={'href': re.compile("^https://")}):  # EXTRAC
 # print("LINKS = ", click_link)
 
 headings_links = dict(zip(headings, click_link))    # TEXT AND LINKS COMBINED INTO A DICTIONARY
-limited = dict(list(headings_links.items())[:25])
+limitedIifl = dict(list(headings_links.items())[:25])
 
 if __name__ == "__main__":
-    print(limited)
+    print(limitedIifl)
 
 
 
